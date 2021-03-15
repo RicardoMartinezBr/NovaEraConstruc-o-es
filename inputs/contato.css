@@ -1,0 +1,26 @@
+
+/* Formulario */
+
+.contato-bg {
+  padding: 0px 0px 50px 200px;
+}
+
+/* Botao enviar */
+
+.btn {
+  background: #d7684d;
+  color: #fff;
+  border: 1px solid #d7684d;
+}
+
+.btn:hover {
+  background: #365068;
+  border: 1px solid #365068;
+  color: #fff;
+}
+
+
+@media (min-width: 40rem){
+
+}
+

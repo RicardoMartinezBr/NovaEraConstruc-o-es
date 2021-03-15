@@ -1,0 +1,230 @@
+@import url("pagina-inicial.css");
+@import url("sobre-nos.css");
+@import url("servicos.css");
+@import url("contato.css");
+
+/* Aqui começa o css sub menu */
+
+.sub-menu {
+  display: flex;
+  flex-direction: row;
+  padding:10px 10px 0px 110px!important;
+  background: #365068;
+}
+
+.sub-menu .fa-whatsapp {
+  padding-right: 5px;
+  color: #d7684d;
+  padding-bottom: 10px;
+}
+
+.sub-menu .fa-mobile-alt {
+  padding-right: 5px;
+  padding-left: 10px;
+  color: #d7684d;
+
+}
+
+.whatsapp-text, .fa-mobile-text {
+  color: #fff;
+}
+
+/* Aqui começa o css da navbar */
+
+#logo {
+  width: 100px;
+  height: auto;
+}
+
+.navbar-toggler-icon {
+  font-size:1.5rem!important;
+}
+
+.navbar-light .navbar-toggler {
+  border-color: rgba(0,0,0,.0);
+}
+
+.nav-link {
+  color: #365068!important;
+  font-size: 1.1rem;
+}
+
+.nav-link:hover {
+  color: #d7684d!important;
+}
+
+/* Aqui começa o css do Footer */
+
+.footer {
+  height: auto!important;
+  padding-bottom: 30px!important;
+  font-family: inherit;
+}
+
+.footer-flex, .under-footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background:#365068;
+}
+
+.footer-item1, .footer-item2, .footer-item3 {
+  width: 100%;
+  color: #fff;
+  text-align: center;
+}
+
+.footer-item1{
+  padding: 30px 50px 20px 50px;
+}
+
+.footer-item3 {
+  padding-top: 20px;
+}
+
+.fab, .far {
+    margin-right: 7px;
+}
+
+.fa, .fas {
+    margin-right: 7px;
+}
+
+.footer-border {
+  width: 500px;
+  border: 1px solid #fff;
+
+}
+
+#logo-footer {
+  width: 120px;
+  height: auto;
+  border-radius: 5px;
+  margin-bottom: 20px;
+}
+
+footer h4 {
+  font-size: 1.1rem;
+  font-weight: 600;
+
+
+}
+
+.footer-social-layout {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding-left: 30px;
+  font-size: 1.4rem;
+  margin-bottom:10px;
+}
+
+.copyright {
+  color: #fff;
+}
+
+.under-footer {
+  padding: 20px 20px 0px 10px;
+  text-align: center;
+}
+
+.footer-whatsapp, .footer-envelop, .footer-instagram,
+.telefone-footer-menu, .whatsapp-footer-menu {
+  color: #d7684d;
+  margin: 0px 7px 0px 7px;
+}
+
+hr {
+  border: 1px solid #ffffff;
+  width: 80%;
+}
+
+.hr-align {
+  display: flex;
+  justify-content: center;
+  background:#365068;
+}
+
+
+
+/* Aqui acaba a parte de telefone do CSS*/
+
+
+@media(min-width: 40rem){
+  #logo {
+    width: 120px;
+    height: auto;
+  }
+
+}
+
+@media(min-width: 60rem){
+
+    footer {
+      background:#365068;
+    }
+
+    .footer-flex {
+      display: flex;
+      flex-direction: row;
+    }
+
+    .footer-item1, .footer-item2, .footer-item3 {
+      width: 500px;
+      padding: 50px;
+      color: #fff;
+      text-align: left;
+    }
+
+    .footer-item2, .footer-item3 {
+      margin-top: 100px;
+    }
+
+    #logo-footer {
+      margin-left: 75px;
+    }
+
+    footer h4 {
+      font-size: 1.1rem;
+      font-weight: 600;
+    }
+
+    hr {
+      border: 1px solid #ffffff;
+      width: 80%;
+    }
+
+    .hr-align {
+      display: flex;
+      justify-content: center;
+    }
+
+    .under-footer {
+      display: flex;
+      flex-direction: column;
+    }
+
+    .footer-social-layout {
+      display: flex;
+      flex-direction: row;s
+      padding-left: 30px;
+      font-size: 1.4rem;
+      margin-bottom:10px;
+    }
+
+    .copyright {
+      color: #fff;
+    }
+
+    .under-footer {
+
+      padding: 20px 20px 0px 10px;
+    }
+
+    .footer-whatsapp, .footer-envelop, .footer-instagram,
+    .telefone-footer-menu, .whatsapp-footer-menu {
+      color: #d7684d;
+    }
+
+}
+

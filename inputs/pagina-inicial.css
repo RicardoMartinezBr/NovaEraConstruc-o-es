@@ -63,6 +63,10 @@ body{
     font-size: 20px;
 }
 
+.banner h1 {
+    font-size: 40px!important;
+}
+
 .main-button a:hover {
     width: 200px;
     background: transparent!important;
@@ -90,7 +94,7 @@ body{
     padding: 8px;
    }
 
-   .child-item-1 h3, .child-item-2 h3, .child-item-3 h3  {
+.child-item-1 h3, .child-item-2 h3, .child-item-3 h3  {
     font-size: 1rem;
     text-align: center;
     background: rgba(51,51,51,0.7);
@@ -109,10 +113,12 @@ body{
     color: #365068;
     text-decoration: none;
     margin-bottom: 30px;
+    width: 200px;
 }
 
 .ver-mais:hover {
     color: #d7684d;
+    text-decoration: none;
 }
 
 .servicos-h2 {

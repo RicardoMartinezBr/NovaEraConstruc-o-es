@@ -1,7 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+
 @import url("pagina-inicial.css");
 @import url("sobre-nos.css");
 @import url("servicos.css");
 @import url("contato.css");
+@import url("components/banner.css");
 
 /* Aqui começa o css sub menu */
 
@@ -22,7 +25,18 @@
   padding-right: 5px;
   padding-left: 10px;
   color: #d7684d;
+}
 
+.contact-button {
+  background: transparent;
+  border: 1px solid #365068;
+  border-radius: 20px;
+  padding: 8px 30px !important;
+  margin-left: 20px;
+  font-weight: 700;
+}
+.contact-button:hover {
+  border: 1px solid #d7684d;
 }
 
 .whatsapp-text, .fa-mobile-text {
@@ -152,7 +166,7 @@ hr {
 
 @media(min-width: 40rem){
   #logo {
-    width: 120px;
+    width: 100px;
     height: auto;
   }
 
